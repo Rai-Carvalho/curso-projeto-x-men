@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="./src/reset.css">
-    <link rel="stylesheet" href="./src/responsivo.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
 </head>
 <body>
     <header class="header">
@@ -22,34 +22,34 @@
         <section class="characters">
             <h1 class="title"> Selecione um personagem</h1>
             <ul class="character-list">
-                <li class="character selected" id="ciclope">
+                <li class="character selected" id="ciclope" data-name="Ciclope" data-description="é um mutante com a habilidade de disparar rajadas de energia óptica, que controla com um visor especial. Ele é líder estratégico e moral do grupo.">
                     <img src="./src/images/card-ciclope.jpg" alt="Personagem Ciclope">
                 </li>
-                <li class="character" id="jean-grey">
+                <li class="character" id="jean-grey" data-name="Jean Grey" data-description="é uma mutante poderosa com habilidades telepáticas e telecinéticas, além de ser a hospedeira da força Fênix">
                     <img src="./src/images/card-jean-grey.jpg" alt="Personagem Jean Grey">
                 </li>
-                <li class="character" id="lince-negra">
+                <li class="character" id="lince-negra" data-name="Lince Negra" data-description="é uma mutante com a habilidade de atravessar objetos sólidos, além de ser uma hacker talentosa e líder estratégica.">
                     <img src="./src/images/card-lince-negra.jpg" alt="Personagem Lince Negra">
                 </li>
-                <li class="character" id="magneto">
+                <li class="character" id="magneto" data-name="Magneto" data-description=" é um mutante com a habilidade de manipular campos magnéticos, permitindo-lhe controlar o metal.">
                     <img src="./src/images/card-magneto.jpg" alt="Personagem Magneto">
                 </li>
-                <li class="character" id="noturno">
+                <li class="character" id="noturno" data-name="Noturno" data-description="é um mutante com a habilidade de se teleportar, além de possuir agilidade sobre-humana e a capacidade de se camuflar nas sombras.">
                     <img src="./src/images/card-noturno.jpg" alt="Personagem Noturno">
                 </li>
-                <li class="character" id="tempestade">
+                <li class="character" id="tempestade" data-name="Tempestade" data-description="é uma mutante capaz de controlar o clima, criando tempestades, ventos e raios.">
                     <img src="./src/images/card-tempestade.jpg" alt="Personagem Tempestade">
                 </li>
-                <li class="character" id="vampira">
+                <li class="character" id="vampira" data-name="Vampira" data-description="é uma mutante com a habilidade de absorver a força vital, memórias e poderes de outras pessoas através do toque">
                     <img src="./src/images/card-vampira.jpg" alt="Personagem Vampira">
                 </li>
-                <li class="character" id="wolverine">
+                <li class="character" id="wolverine" data-name="Wolverine" data-description="é um mutante com um fator de cura avançado e garras retráteis de adamantium, um metal indestrutível.">
                     <img src="./src/images/card-wolverine.jpg" alt="Personagem Wolverine">
                 </li>
             </ul>
         </section>
         <section class="selected-character">
-            <img class="big-character" src="src/images/card-ciclope.png" alt="Personagem Ciclope">
+            <img class="big-character" src="./src/images/card-ciclope.png" alt="Personagem Ciclope">
             <div class="character-info">
                 <h2 class="character-name" id="character-name">Ciclope</h2>
                 <p class="description" id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rem quidem consequuntur excepturi repellat sit saepe perferendis fugiat, atque doloremque sapiente tempore quasi</p>
@@ -59,5 +59,6 @@
         </section>
 
     </main>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
